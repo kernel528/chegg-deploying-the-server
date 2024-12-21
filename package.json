@@ -1,0 +1,27 @@
+{
+  "name": "deploying-the-server",
+  "version": "1.0.0",
+  "engines": {
+    "node": "18.20.4"
+  },
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server",
+    "server": "nodemon server.js",
+    "client": "npm start --prefix client",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "dependencies": {
+    "express": "^4.17.1",
+    "cors": "^2.8.5"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.4"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/kernel528/chegg-skills-backend-web-dev-cert.git"
+  }
+}
